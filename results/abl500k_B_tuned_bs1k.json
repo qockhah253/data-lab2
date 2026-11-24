@@ -1,0 +1,10 @@
+{
+  "method": "batch-executemany",
+  "batch_size": 1000,
+  "tuned": true,
+  "rows": 500000,
+  "load_seconds": 3.42,
+  "seconds": 4.24,
+  "rows_per_sec": 117966,
+  "db_mb": 88
+}

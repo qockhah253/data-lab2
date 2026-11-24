@@ -1,0 +1,8 @@
+{
+  "method": "row-by-row",
+  "commit_every": 1,
+  "rows": 10000,
+  "seconds": 169.15,
+  "rows_per_sec": 59,
+  "db_mb": 2
+}

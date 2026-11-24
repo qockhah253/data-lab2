@@ -1,0 +1,5 @@
+=== full_B_batch
+{"method": "batch-executemany", "batch_size": 100000, "tuned": true, "rows": 20332093, "load_seconds": 161.97, "seconds": 231.85, "rows_per_sec": 87695, "db_mb": 3631}
+=== full_A_rowbyrow
+{"method": "row-by-row", "commit_every": 0, "rows": 20332093, "seconds": 350.35, "rows_per_sec": 58034, "db_mb": 3748}
+=== sample10k_A_commit_each_row
