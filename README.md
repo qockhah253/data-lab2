@@ -87,7 +87,11 @@ Lưu ý: ở mẫu nhỏ, chênh lệch A/B chỉ ~20%, nhỏ hơn ở quy mô �
 Xem `results/verify.json` (so sánh số dòng, tổng tiền, tổng quãng đường, checksum `trip_id`, kết quả truy vấn join giữa 2 DB và số vi phạm khoá ngoại). Xem mục 8.
 
 ## 8. Kết quả verify
-(cập nhật sau khi `verify.py` chạy xong)
+Hai DB cho **kết quả giống hệt nhau** trên mọi truy vấn kiểm tra (`identical_results = true`):
+- 20.332.093 dòng ở cả `trips` và `trip_fares`; tổng `total_amount` = 557.830.247,45; tổng `trip_distance` = 95.659.760,68.
+- 0 vi phạm khoá ngoại (`PRAGMA foreign_key_check`).
+- Dữ liệu gốc có dòng bất thường: `pickup_ts` nhỏ nhất là 2002-12-31, lớn nhất 2026-06-26 (giữ nguyên, không làm sạch).
+- Thời gian truy vấn trong `verify.json` **không dùng để so sánh A/B**: DB của A được đọc trước (cache nguội) và chạy lúc ablation đang chạy song song.
 
 ## 9. Hạn chế
 - Dùng SQLite (không cần server), chưa thử PostgreSQL/MySQL; chênh lệch có thể khác trên DB client-server.

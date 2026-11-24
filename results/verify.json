@@ -1,0 +1,257 @@
+{
+ "full_A_rowbyrow": {
+  "rows_trips": {
+   "result": [
+    [
+     20332093
+    ]
+   ],
+   "seconds": 59.28
+  },
+  "rows_fares": {
+   "result": [
+    [
+     20332093
+    ]
+   ],
+   "seconds": 121.39
+  },
+  "sum_total": {
+   "result": [
+    [
+     557830247.45
+    ]
+   ],
+   "seconds": 1.79
+  },
+  "sum_distance": {
+   "result": [
+    [
+     95659760.68
+    ]
+   ],
+   "seconds": 38.74
+  },
+  "id_checksum": {
+   "result": [
+    [
+     206697013046371,
+     "2002-12-31 16:46:07",
+     "2026-06-26 23:53:12"
+    ]
+   ],
+   "seconds": 14.85
+  },
+  "trips_per_borough": {
+   "result": [
+    [
+     "Manhattan",
+     18108209,
+     23.14
+    ],
+    [
+     "Queens",
+     1831264,
+     68.48
+    ],
+    [
+     "Brooklyn",
+     253557,
+     31.96
+    ],
+    [
+     "Unknown",
+     65678,
+     29.3
+    ],
+    [
+     "Bronx",
+     58865,
+     35.01
+    ],
+    [
+     "N/A",
+     11307,
+     92.56
+    ],
+    [
+     "EWR",
+     2539,
+     98.79
+    ],
+    [
+     "Staten Island",
+     674,
+     47.87
+    ]
+   ],
+   "seconds": 50.03
+  },
+  "top_routes": {
+   "result": [
+    [
+     "Upper East Side South",
+     "Upper East Side North",
+     139790
+    ],
+    [
+     "Upper East Side North",
+     "Upper East Side South",
+     121767
+    ],
+    [
+     "Upper East Side North",
+     "Upper East Side North",
+     98008
+    ],
+    [
+     "Upper East Side South",
+     "Upper East Side South",
+     95085
+    ],
+    [
+     "Midtown Center",
+     "Upper East Side South",
+     66453
+    ]
+   ],
+   "seconds": 35.3
+  },
+  "fk_violations": {
+   "result": [
+    [
+     0
+    ]
+   ],
+   "seconds": 8.5
+  }
+ },
+ "full_B_batch": {
+  "rows_trips": {
+   "result": [
+    [
+     20332093
+    ]
+   ],
+   "seconds": 0.22
+  },
+  "rows_fares": {
+   "result": [
+    [
+     20332093
+    ]
+   ],
+   "seconds": 2.04
+  },
+  "sum_total": {
+   "result": [
+    [
+     557830247.45
+    ]
+   ],
+   "seconds": 1.55
+  },
+  "sum_distance": {
+   "result": [
+    [
+     95659760.68
+    ]
+   ],
+   "seconds": 2.6
+  },
+  "id_checksum": {
+   "result": [
+    [
+     206697013046371,
+     "2002-12-31 16:46:07",
+     "2026-06-26 23:53:12"
+    ]
+   ],
+   "seconds": 2.15
+  },
+  "trips_per_borough": {
+   "result": [
+    [
+     "Manhattan",
+     18108209,
+     23.14
+    ],
+    [
+     "Queens",
+     1831264,
+     68.48
+    ],
+    [
+     "Brooklyn",
+     253557,
+     31.96
+    ],
+    [
+     "Unknown",
+     65678,
+     29.3
+    ],
+    [
+     "Bronx",
+     58865,
+     35.01
+    ],
+    [
+     "N/A",
+     11307,
+     92.56
+    ],
+    [
+     "EWR",
+     2539,
+     98.79
+    ],
+    [
+     "Staten Island",
+     674,
+     47.87
+    ]
+   ],
+   "seconds": 51.56
+  },
+  "top_routes": {
+   "result": [
+    [
+     "Upper East Side South",
+     "Upper East Side North",
+     139790
+    ],
+    [
+     "Upper East Side North",
+     "Upper East Side South",
+     121767
+    ],
+    [
+     "Upper East Side North",
+     "Upper East Side North",
+     98008
+    ],
+    [
+     "Upper East Side South",
+     "Upper East Side South",
+     95085
+    ],
+    [
+     "Midtown Center",
+     "Upper East Side South",
+     66453
+    ]
+   ],
+   "seconds": 30.8
+  },
+  "fk_violations": {
+   "result": [
+    [
+     0
+    ]
+   ],
+   "seconds": 8.27
+  }
+ },
+ "identical_results": true
+}
